@@ -52,6 +52,7 @@ object MainForm: TMainForm
     Align = alBottom
     BevelOuter = bvNone
     TabOrder = 0
+    ExplicitTop = 324
     DesignSize = (
       411
       33)
@@ -326,6 +327,8 @@ object MainForm: TMainForm
       BevelOuter = bvLowered
       TabOrder = 1
       Visible = False
+      ExplicitLeft = 211
+      ExplicitTop = 22
       DesignSize = (
         197
         294)
@@ -406,7 +409,7 @@ object MainForm: TMainForm
       end
       object Label13: TLabel
         Left = 56
-        Top = 124
+        Top = 108
         Width = 83
         Height = 16
         Caption = ' FREEWARE '
@@ -438,14 +441,14 @@ object MainForm: TMainForm
       end
       object Label16: TLabel
         Left = 41
-        Top = 156
+        Top = 140
         Width = 110
         Height = 13
         Caption = 'Copyright '#169' 2003-2021'
       end
       object Label17: TLabel
         Left = 26
-        Top = 209
+        Top = 175
         Width = 144
         Height = 13
         Cursor = crHandPoint
@@ -461,24 +464,47 @@ object MainForm: TMainForm
       end
       object Label18: TLabel
         Left = 32
-        Top = 172
+        Top = 156
         Width = 132
         Height = 13
         Caption = 'Alex Shovkoplyas, VE3NEA'
       end
       object Label19: TLabel
-        Left = 10
-        Top = 253
+        Left = 6
+        Top = 210
         Width = 177
         Height = 13
         Caption = 'Copyright '#169' 2025 JR8PPG, JH5GHM'
       end
       object Label20: TLabel
         Left = 6
-        Top = 238
+        Top = 196
         Width = 184
         Height = 13
         Caption = 'This version supports transceive mode.'
+      end
+      object Label21: TLabel
+        Left = 6
+        Top = 229
+        Width = 179
+        Height = 13
+        Caption = 'This is an encanced version for SO2V'
+        OnClick = Label21Click
+      end
+      object Label22: TLabel
+        Left = 8
+        Top = 240
+        Width = 79
+        Height = 19
+        Caption = 'with 1 COM port.'
+        OnClick = Label21Click
+      end
+      object Label23: TLabel
+        Left = 6
+        Top = 253
+        Width = 130
+        Height = 13
+        Caption = 'Copyright '#169' 2026 JH5GHM'
       end
     end
   end
